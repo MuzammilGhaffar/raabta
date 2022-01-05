@@ -1,0 +1,61 @@
+.LinkWrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  list-style-type: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.LinkWrapper li {
+  display: inline-block;
+  text-align: center;
+  width: 25vw;
+}
+
+.LinkWrapper li a {
+  text-decoration: none;
+  color: #88b0d7;
+  font-weight: 600;
+}
+
+.LinkWrapper a:hover,
+.LinkWrapper a:active,
+.LinkWrapper a.active {
+  color: #fff;
+}
+
+.LinkWrapper button {
+  font-size: 16px;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+  background: none;
+  padding: 0.35em 1.2em;
+  color: #fff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.Createcoo {
+  border: 0.2em solid #ffffff;
+}
+
+.Signout {
+  border: 0.2em solid #e57373;
+}
+
+.Createcoo:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.Signout:hover {
+  color: #000000;
+  background-color: #e57373;
+}

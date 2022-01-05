@@ -1,0 +1,47 @@
+.UserBlock {
+  margin-top: 20px;
+  width: 28vw;
+  min-width: 255px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0 10px 10px -5px;
+}
+.UserBlock * {
+  margin: 0;
+}
+.UserBlock div {
+  box-sizing: border-box;
+  margin: 15px auto;
+  padding: 0px 15px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.UserBlock div * {
+  display: inline-block;
+  color: #cddeee;
+}
+.UserBlock a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.UserBlock button {
+  cursor: pointer;
+  outline: none;
+  width: 70px;
+  height: 30px;
+  color: #cddeee;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+.UserBlock button:hover {
+  background: #fff;
+  color: #000;
+}

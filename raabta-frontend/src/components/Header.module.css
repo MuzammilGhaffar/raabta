@@ -1,0 +1,69 @@
+.Header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 70px;
+  border-bottom: 1px solid #ededed;
+}
+
+.Header h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #cddeee;
+}
+.Header form input {
+  box-sizing: border-box;
+  height: 30px;
+  border-radius: 10px 0 0px 10px;
+  padding: 0 10px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.Header form button {
+  cursor: pointer;
+  height: 30px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 0px 10px 10px 0px;
+  outline: none;
+}
+
+.Header a {
+  text-decoration: none;
+  color: #88b0d7;
+  font-weight: 600;
+}
+
+.Header a:hover,
+.Header a:active,
+.Header a.active {
+  color: #fff;
+}
+
+.Header form button:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .Header h1 {
+    font-size: 1.5em;
+  }
+  .Header {
+    height: 40px;
+  }
+  .Header form input {
+    height: 20px;
+  }
+  .Header form button {
+    height: 20px;
+  }
+}
